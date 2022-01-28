@@ -58,6 +58,7 @@ body{
     border: none;
     background: none;
     cursor: pointer;
+    display: none;
 
 }
 .toggle .bx-menu-alt-right{
