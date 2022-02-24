@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(233, 230, 230);
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+   .box-container {
+      width: 80%;
+      box-sizing: border-box;
+      height: 80%;
+      background: rgb(255, 255, 255);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 5px 5px 3px rgb(199, 199, 199);
+      }
+
+
+     
+
+
+
+  .poster{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+   background: blue;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+   
+  }
+
+  .poster h2{
+    line-height: 50px;
+    color: white;
+    margin: 0 10px;
+  }
+
+  .btn{
+    line-height: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    background: rgb(248, 248, 248);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+
+  }
+
+  /* estilos de tabla  */
+  table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead{
+    border-bottom: 1px solid rgb(214, 211, 211);
+  }
+  thead th{
+    color: gray;
+  }
+
+  /* thead th:nth-child(1){
+    width: 10%;
+  }
+
+  thead th:nth-child(2){
+    width: 20%;
+  }
+
+  thead th:nth-child(3){
+    width: 15%;
+  }
+  thead th:nth-child(4){
+    width: 35%;
+  } */
+
+  th, td{
+    padding: 20px;
+  }
+ 
+  th{
+    letter-spacing: 2px;
+  }
+  
+
+  tbody td{
+    text-align: center;
+    font-weight: 500;
+  }
+  tbody td .delete{
+    padding: 10px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  tbody tr:nth-child(odd){
+    background: white;
+
+  }
+
+  tbody tr:nth-child(even){
+    background: rgb(181, 236, 236);
+    
+  }

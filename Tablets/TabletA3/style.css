@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(230, 227, 227);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.container_tbl{
+    width: 90%;
+    height: 90%;
+    background:white;
+    box-shadow: 5px 5px 3px rgb(199, 199, 199);
+    border: 1px solid rgb(163, 162, 162);
+}
+.tbl_poster{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(240, 237, 237);
+}
+.btn{
+line-height: 70px;
+margin: 0 20px;
+padding:15px;
+background: blue;
+color: white;
+text-decoration: none;
+font-weight: 500;
+border-radius: 2px;
+font-size: 15px;
+font-weight: 700;
+}
+.btn .bx {
+    font-weight: 800;
+}
+
+
+table{
+    
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+thead{
+    border-bottom: 1px solid rgb(240, 235, 235);
+    background: blue;
+    color: white;
+}
+thead th, td{
+    padding: 20px;
+}
+
+thead th:nth-child(3){
+    width: 30%;
+}
+
+
+tbody td{
+    text-align: center;
+}
+tbody td .img-post{
+    width: 100px;
+}
+
+tbody tr:nth-child(odd){
+    background: rgb(233, 230, 230);
+}
